@@ -50,10 +50,10 @@ async def main():
     print(df.loc[0, 'Released'])
 
     # Slicing the dataframe using index [start:end]: start -> end - 1
-    print(df.iloc[0:2, 0:3])
+    print(df.iloc[1:2, 1:3])
 
     # Slicing the dataframe using name
-    print(df.loc[0:2, 'Artist':'Released'])
+    print(df.loc[1:2, 'Artist':'Released'])
 
 
 if __name__ == '__main__':
