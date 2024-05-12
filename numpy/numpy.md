@@ -50,16 +50,16 @@ print(arr_2d[:, 1])       # Accessing a column (2nd column)
 ```
 
 ## Basic operations
-Operation | Description | Example
----|---|---
-Array Creation | Creating a NumPy array. | arr = np.array([1, 2, 3, 4, 5])
-Element-Wise Arithmetic | Element-wise addition, subtraction, and so on. | result = arr1 + arr2
-Scalar Arithmetic |	Scalar addition, subtraction, and so on. | result = arr * 2
-Element-Wise Functions | Applying functions to each element. | result = np.sqrt(arr)
-Sum and Mean | Calculating the sum and mean of an array.Calculating the sum and mean of an array. | total = np.sum(arr)<br>average = np.mean(arr)
-Maximum and Minimum Values | Finding the maximum and minimum values. | max_val = np.max(arr)<br>min_val = np.min(arr)
-Reshaping |	Changing the shape of an array. | reshaped_arr = arr.reshape(2, 3)
-Transposition |	Transposing a multi-dimensional array. | transposed_arr = arr.T
-Matrix Multiplication |	Performing matrix multiplication. | result = np.dot(matrix1, matrix2)
+| Operation | Description | Example |
+| --- | --- | --- |
+| Array Creation | Creating a NumPy array. | `arr = np.array([1, 2, 3, 4, 5])` |
+| Element-Wise Arithmetic | Element-wise addition, subtraction, and so on. | `result = arr1 + arr2` |
+| Scalar Arithmetic | Scalar addition, subtraction, and so on. | `result = arr * 2` |
+| Element-Wise Functions | Applying functions to each element. | `result = np.sqrt(arr)` |
+| Sum and Mean | Calculating the sum and mean of an array. | `total = np.sum(arr)`<br>`average = np.mean(arr)` |
+| Maximum and Minimum Values | Finding the maximum and minimum values. | `max_val = np.max(arr)`<br>`min_val = np.min(arr)` |
+| Reshaping | Changing the shape of an array. | `reshaped_arr = arr.reshape(2, 3)` |
+| Transposition | Transposing a multi-dimensional array. | `transposed_arr = arr.T` |
+| Matrix Multiplication | Performing matrix multiplication. | `result = np.dot(matrix1, matrix2)` |
 
 
