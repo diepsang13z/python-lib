@@ -1,4 +1,4 @@
-# pandas?
+# Instruction
 Pandas is a popular open-source data manipulation and analysis library for the Python programming language. It
 provides a powerful and flexible set of tools for working with structured data, making it a fundamental tool for
 data scientists, analysts, and engineers.
@@ -7,7 +7,7 @@ Pandas is designed to handle data in various formats, such as tabular data, time
 an essential part of the data processing workflow in many industries.
 
 
-# Data Structures:
+# Data Structures
 Pandas offers two primary data structures - DataFrame and Series.
 
 1. A DataFrame is a two-dimensional, size-mutable, and potentially heterogeneous tabular data structure
